@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prazwal Stark</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d5eba3bbdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h4>Computer Engineer</h4>
+            <h1>Hi, I'm<br><span>Prazwal Stark</span><br>from Starkverse.</h1>
+        </div>
+    </div>
+   </div> 
+   <!-------------about--------------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>Hey! I'm Prajjwal Pandey. Student at Tribhuvan University, 
+                        currently studying Computer Engineering at the Pulchowk Campus in Lalitpur. 
+                        Since I am a huge fan of 'Tony Stark' aka 'Iron Man', I like to associate 
+                        with the name Prazwal Stark.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Computer Programmer</span><br>C/C++, Python</li>
+                            <li><span>Web Scripting</span><br>HTML <br>CSS <br>JS</li>
+                            <li><span>Graphics Designer</span><br>Adobe Illustrator <br>Adobe Premier Pro <br>Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>My professional experience is limited as of now.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>BCT at Pulchowk Campus</li>
+                            <li><span>2020</span><br>High Schoool From KMC,Kathamndu</li>
+                            <li><span>2018</span><br>SEE from New Horizon,Butwal</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- -------------services----------- -->
+   <div id="services">
+    <div class="container">
+            <h1 class="sub-title">SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Design && build websites from front-end perspective. 
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Front-end_web_development">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-file-code"></i>
+                    <h2>Programming</h2>
+                    <p>Python || C/C++ based program development.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Software_development">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Visual Concepts for designing applications such as advertisements || 
+                        Banners || Logos || Short-films || Photo-Edits using Adobe.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Graphic_design">Learn more</a>
+                </div>
+            </div>
+    </div>
+   </div>
+   <!-- -------------------------portfolio----------------------------- -->
+   <div id="portfolio">
+    <div class="container">
+        <div class="sub-title">WORK</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/alien_invasion.gif" class="w1" >
+                <div class="layer">
+                    <h3>ALIEN INVASION</h3>
+                    <p>-Python. A ship that fires bullet at alien ships.</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/prazwalstark" class="btn">See More</a>
+    </div>
+   </div>
+   <!-- ----------------------------contact--------------------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>prazwalstark@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9845632882</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/prazwal-stark-75b8b6192/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/prazwalstark10"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCsEOVnkFyo8172Omtl_vl0w"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/prazwalstark"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/prazwalstark"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>                        
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © PrazwalStark <i class="fa-sharp fa-solid fa-fire"></i> </p>
+    </div>
+   </div>
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+   </script>
+   <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6vaybkeAEE6obIOZrbRiEwhkm6QkvcuMnmPhnWn3QNS9ekzeQbS-pZygedMDNrvTx/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
